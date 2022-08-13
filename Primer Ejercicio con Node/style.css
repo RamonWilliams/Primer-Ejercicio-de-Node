@@ -1,0 +1,90 @@
+html{
+    margin: 0;
+    padding: 0;
+    background-image: url("https://frasesdelavida.com/wp-content/uploads/2018/04/Frases-de-superheroes.jpg");
+    background-attachment: fixed; 
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-size: cover;
+}
+
+
+h1{
+    color: rgb(252, 41, 41);
+    text-align:  center;
+    font-size: 60px;
+    padding: 10px;
+    border: 1px black;
+   
+    
+}
+
+ul{ 
+    border: 2px solid yellow;
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    margin: 20px;
+    background-color: black;
+
+    
+}
+ul li{
+    font-size: 40px;
+    margin: 20px;
+    color: rgb(245, 240, 240);
+    list-style: none;
+}
+.mainContainer{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+    justify-content: center;
+}
+.tarjeta{
+    display: flex;
+    flex-direction: column; 
+    border: 2px solid white;  
+    height:500px ;
+    background-color: rgb(10, 8, 8);
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+.image-Container{
+    width: 400px
+}
+img{
+    width: 100%;
+    height: 300px;
+    object-fit: cover;    
+}
+.info{
+    display: flex;
+    flex-direction: column;    
+    align-items: center; 
+    
+     
+}
+h2{
+    font-size: 34px;
+    margin-bottom: 10px;
+    color: snow;
+}
+
+p{
+    margin-bottom: 10px;
+    font-size: 18px;
+    color: snow;
+}
+.footer{
+    display: flex;
+    justify-content: space-between;
+}
+button{
+    font-size: 30px;
+    margin: 20px;
+    padding: 10px;
+    border-radius: 10px;
+    color: rgb(255, 254, 254);
+    background-color: black;
+}
